@@ -1,0 +1,28 @@
+Indique si las siguientes sentencias son Verdaderas o Falsas:
+
+a. La clase Mozo y la clase MaestroPizzero están asociadas.
+	- FALSE. Si bien maestro pizzero usa los servicios de mozo. No tienen un atributo de clase.
+
+b. Existe una relación de dependencia entre las clases Mozo y MaestroPizzero.
+	- FALSE. Ninguno de los servicios, de ninguna de las dos clases declara, recibe o retorna un objeto de la otra clase.
+
+c. La clase Orden es proveedora de la clase MaestroPizzero.
+	- TRUE. La clase maestro pizzero hace uso de los servicios de la clase Orden.
+
+d. La clase MaestroPizzero es proveedora de la clase Pizza.
+	- FALSE. La clase pizza no usa los servicios de la clase maestro pizzero.
+
+e. La clase MaestroPizzero es cliente de la clase Pizza.
+	- TRUE. La clase maestro pizzero si usa los servicios de la clase pizza.
+
+f. La clase Pizza y PizzaVariedad están asociadas.
+	- TRUE. La clase pizza tiene como atributo de instancia una variable de tipo pizza variedad.
+
+g. Existe una relación de dependencia entre las clases PizzaVariedad y Pizza.
+	- TRUE. La clase pizza tiene un comando y una consulta donde recibe y retorna respectivamente una referencia de tipo pizza variedad.
+
+h. La clase Mozo y Pizza están asociadas.
+	- TRUE. Mozo tiene un atributo de instancia de tipo pizza.
+
+i. Existe una relación de dependencia entre las clases Orden y PizzaVariedad.
+	- FALSE. Ninguno de sus metodos declara, recibe o retorna un objeto de la otra clase.
